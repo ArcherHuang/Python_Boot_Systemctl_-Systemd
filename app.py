@@ -1,5 +1,9 @@
+import os
 import json
 from flask import Flask
+
+whoami = os.system("whoami")
+print(f"whoami: {whoami}")
 
 f = open('./data.json')
 data = json.load(f)
