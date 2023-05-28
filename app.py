@@ -2,10 +2,9 @@ import os
 import json
 from flask import Flask
 
-whoami = os.system("whoami")
-print(f"whoami: {whoami}")
+base_path = "/home/mmosconii"
 
-f = open('./data.json')
+f = open(f"{base_path}/data.json")
 data = json.load(f)
 f.close()
 
