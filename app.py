@@ -4,7 +4,7 @@ from flask import Flask
 
 base_path = "/home/mmosconii"
 
-f = open(f"{base_path}/data.json")
+f = open(f"{base_path}/Python_Boot_Systemctl_Systemd/data.json")
 data = json.load(f)
 f.close()
 
