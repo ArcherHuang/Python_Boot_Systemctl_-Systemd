@@ -2,7 +2,7 @@
 Description=Enable automatic startup program
 
 [Service]
-ExecStart=/usr/bin/python3 /Python_Boot_Systemctl_Systemd/app.py
+ExecStart=/usr/bin/python3 /home/mmosconii/Python_Boot_Systemctl_Systemd/app.py
 Restart=on-failure
 RestartSec=10
 
