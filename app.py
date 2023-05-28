@@ -1,7 +1,7 @@
 import json
 from flask import Flask
 
-f = open('~/data.json')
+f = open('./data.json')
 data = json.load(f)
 f.close()
 
